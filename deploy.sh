@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd /home/ubuntu/ci_cd_githubaction || exit
+cd /home/ubuntu/CI_CD_GithubAction || exit
 
 echo "Stopping old app..."
 pkill -f "python3 app.py" || true
